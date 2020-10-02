@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.game {
+    margin-top: 50px;
+    width:640px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px darkgrey;
+
+}
+
+.position {
+    width: 40px;
+    height: 40px;
+}
+
+.snake {
+    box-sizing: border-box;
+    background-color: darkgreen;
+    border: 1px solid darkgrey;
+}
+
+.apple {
+    background-color: firebrick;    
+
+}
